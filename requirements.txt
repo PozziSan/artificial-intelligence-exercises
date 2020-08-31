@@ -1,0 +1,7 @@
+jupyter==1.0.0
+networkx==2.2
+pandas
+matplotlib==2.1.1
+pillow
+Image
+ipythonblocks
