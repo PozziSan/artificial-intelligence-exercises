@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  notebook:
+    container_name: jupyter-notebook
+    image: jupyter/all-spark-notebook
+    volumes:
+      - ./:/home/notebooks
+    ports:
+      - 80:8888
